@@ -6,7 +6,7 @@ public class BirdScript : MonoBehaviour
 {
     public Rigidbody2D birdBody;
     public LogicScript logic;
-    public float scale = 10;
+    public float scale = 20;
     public bool birdIsAlive = true;
     // Start is called before the first frame update
     void Start()
@@ -30,14 +30,4 @@ public class BirdScript : MonoBehaviour
         logic.gameOver();
     }
 
-    public void hitGround()
-    {
-        Debug.Log(birdBody.transform.position.y);
-        if (birdBody.transform.position.y < -11)
-        {
-            birdIsAlive = false;
-            logic.gameOver();
-        }
-
-    }
 }
