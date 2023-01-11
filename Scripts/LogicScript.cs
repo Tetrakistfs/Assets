@@ -14,13 +14,6 @@ public class LogicScript : MonoBehaviour
         highScoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 
-    void Update()
-    {
-        // if (PlayerPrefs.GetInt("HighScore") < playerScore)
-        // {
-        // }
-    }
-
     [ContextMenu("changeScore")]
     public void changeScore(int addScore)
     {
@@ -44,8 +37,16 @@ public class LogicScript : MonoBehaviour
         gameOverScreen.SetActive(true);
     }
 
-    public void setHighScore()
+    public void resetHighScore()
     {
+        Debug.Log("Resetting the Score");
+        PlayerPrefs.DeleteKey("HighScore");
+        highScoreText.text = "0";
+    }
 
+    public void quit()
+    {
+        Debug.Log("Quitting the Game");
+        Application.Quit();
     }
 }
