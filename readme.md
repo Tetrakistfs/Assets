@@ -1,10 +1,12 @@
-Ongoing Bugs int the game:
-
-When the bird dies and the pipe stops moving the pipe still keeps spawning consuming memory.
+Features:
+add goumbas to shoot between pipes.
 needs cloud particle in the bg.
 change the bg to night afer every 25 score.
-change the angle of the bird to look up when press space.
 make the base move.
+
+Ongoing Bugs int the game:
+When the bird dies and the pipe stops moving the pipe still keeps spawning consuming memory.
+change the angle of the bird to look up when press space.
 
 Fixed Bugs:
 needs a quit button
