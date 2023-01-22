@@ -1,4 +1,11 @@
-Features:
+# Flappy Bird
+
+This is my second project and a remake of the famouse IOS game glappy bird recreated in unity with some new features.
+The playable files can be found in V_1.0 and V_2.0.
+
+image.png
+
+Future Features:
 needs cloud particle in the bg.
 change the bg to night afer every 25 score.
 make the base move.
