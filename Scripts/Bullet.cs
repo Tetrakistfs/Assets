@@ -3,11 +3,13 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public Rigidbody2D bulletbody;
+    public LogicScript score;
+
     public float bulletSpeed = 10f;
 
     void Start()
     {
-
+        score = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
     void Update()
     {
@@ -19,6 +21,7 @@ public class Bullet : MonoBehaviour
         {
             Debug.Log("bullet Hit");
             enemyComponent.takeDamage(1);
+            score.changeScore(1);
         }
         Destroy(gameObject);
     }

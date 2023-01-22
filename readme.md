@@ -1,5 +1,4 @@
 Features:
-add goumbas to shoot between pipes.
 needs cloud particle in the bg.
 change the bg to night afer every 25 score.
 make the base move.
@@ -9,6 +8,7 @@ When the bird dies and the pipe stops moving the pipe still keeps spawning consu
 change the angle of the bird to look up when press space.
 
 Fixed Bugs:
+add goumbas to shoot between pipes.
 needs a quit button
 needs a start screen.
 add bird animation sprites

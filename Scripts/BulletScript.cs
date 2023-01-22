@@ -6,7 +6,7 @@ public class BulletScript : MonoBehaviour
 {
     public GameObject bullet;
     public BirdScript bird;
-    public float spawnRate = 1f;
+    public float spawnRate = 0.5f;
 
     float timer = 0f;
     // Start is called before the first frame update
