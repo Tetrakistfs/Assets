@@ -1,6 +1,6 @@
 # Flappy Bird
 
-This is my second project and a remake of the famouse IOS game glappy bird recreated in unity with some new features.
+This is my second project and a remake of the famouse IOS game flappy bird recreated in unity with some new features.
 The playable files can be found under Release
 
 image.png
